@@ -23,7 +23,7 @@ router.get('/:id', async (req, res) => {
   try {
     // pass in paramater id to find by primary key //
     const categoryData = await Category.findByPk(req.params.id, {
-      include: [{model: product}]
+      include: [{model: Product}]
 });
 res.status(200).json(categoryData);
   } catch (err) {
