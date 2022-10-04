@@ -52,7 +52,7 @@ router.put('/:id', async (req, res) => {
     });
     // if no data with id send error status & message //
     if (!categoryData) {
-      res.status(404).json({ message: "No category with this id"});
+      res.status(404).json({ message: "No Category with this Id" });
       return;
     }
     res.status(200).json(categoryData);
@@ -71,7 +71,7 @@ router.delete('/:id', async (req, res) => {
     });
     // if no data with id send error status & message //
     if (!categoryData) {
-      res.status(404).json({ message: "No category with this id" });
+      res.status(404).json({ message: "No Category with this Id" });
       return;
     }
     // else send json data //

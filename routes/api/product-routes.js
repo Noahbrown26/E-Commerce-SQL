@@ -22,7 +22,7 @@ router.get('/:id', async (req, res) => {
       include: [{model: Category}, {model: Tag}]})
     // send error message if no product with id //
     if (!productData) {
-      res.status(404).json({message: "No product with this id"});
+      res.status(404).json({message: "No Product with this Id" });
       return; 
     }
     res.status(200).json(productData);
