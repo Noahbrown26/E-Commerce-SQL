@@ -13,7 +13,6 @@ This is the 13th challenge for my Coding bootcamp journey. For this challenge, w
 * [Questions](#questions)
   
 ## Usage
-You can view a walkthrough video of the application [here](https://raw.githubusercontent.com/Noahbrown26/EmployeeTracker/main/assets/demo.mp4)
 
 ![](./assets/images/screenshot.PNG)
   
