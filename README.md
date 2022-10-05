@@ -14,6 +14,8 @@ This is the 13th challenge for my Coding bootcamp journey. For this challenge, w
   
 ## Usage
 
+Below shows an example of JSON data being displayed given the type of api request
+
 ![](./assets/images/screenshot.PNG)
   
 ## Questions
